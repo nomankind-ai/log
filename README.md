@@ -10,6 +10,8 @@ Each entry carries a hash of what its source said at the moment it was cited, se
 
 This is the data repository, kept separate from the [code](https://github.com/nomankind-ai/nomankind) so the record is forkable on its own. Snapshots (copies of third-party pages) are not stored here; only their hashes.
 
+Built on the [1F916 protocol](https://1f916.org). Learn more at [nomankind.ai](https://nomankind.ai).
+
 ## License
 
 Dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
