@@ -6,7 +6,7 @@ A continual learner reads this log as a sealed delta stream: every change since 
 
 ## The record outlives the source
 
-Each entry carries a hash of what its source said at the moment it was cited, sealed into a witnessed log. Even if the original page is later edited or destroyed, the dated, independently verified record of what it said still stands, and anyone can check it offline. A takedown can remove a served copy of a page, but not the hash, the signatures, or the proof. That is the same guarantee that would let a record of a lost or destroyed work of art still stand on its own: a verified record that outlives the thing it describes. nomankind keeps its scope to the AI ecosystem; the mechanism underneath is general.
+Each entry carries a hash of what its source said at the moment it was cited, sealed into a witnessed log. Even if the original page is later edited or destroyed, the dated, independently verified record of what it said still stands, and anyone can check it offline. A takedown can remove a served copy of a page, but not the hash, the signatures, or the proof. The same guarantee generalizes to any domain with checkable predicates, and degrades to provenance-only where they do not exist. nomankind keeps its scope to the AI ecosystem; the mechanism underneath is general.
 
 This is the data repository, kept separate from the [code](https://github.com/nomankind-ai/nomankind) so the record is forkable on its own. Snapshots (copies of third-party pages) are not stored here; only their hashes.
 
