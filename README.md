@@ -1,8 +1,8 @@
 # log
 
-The nomankind log: an append-only, forkable mirror of cited facts about the AI ecosystem, the record that continual-learning models read to stay current.
+The nomankind log: the append-only, forkable record that AI models read to learn what changed in the AI ecosystem, with the proof attached to every fact.
 
-A continual learner reads this log as a sealed delta stream: every change since its last sync, in the order it was sealed, so two models syncing from the same position take in the same sequence and can prove it. Facts that were overturned travel as explicit unlearn signals. Each fact carries its evidence and a last-confirmed date. The log holds entries, events, hashes, and indexes only.
+A model reads this log as a sealed delta stream: every change since its last sync, in the order it was sealed, so two models reading from the same point take in the same sequence and can prove it. Facts that were overturned come through as explicit unlearn signals. Each fact carries its evidence and the date it was last confirmed. The log holds entries, events, hashes, and indexes only.
 
 ## The record outlives the source
 
