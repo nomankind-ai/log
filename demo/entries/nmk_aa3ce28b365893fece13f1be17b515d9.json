@@ -1,0 +1,101 @@
+{
+  "entry": {
+    "id": "nmk_aa3ce28b365893fece13f1be17b515d9",
+    "subject": "example/demo-model",
+    "category": "correction",
+    "claim": "correction: the cited page documents no request limit for example/demo-model",
+    "before": "demo checkpoint seed: the cited page is the documented request limit",
+    "after": "the cited page documents no request limit",
+    "effective_at": "2026-09-10",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://example.com/",
+    "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+    "author_operator": null,
+    "submitted_at": "2026-09-10T00:48:15.502Z",
+    "signature": "W0urZu14tj0rPn8CX1msUJ/BZFhvgcfhN8mOBNdb7uDG8a4xeEjToaprT2YLZNIKdhowLBt+GU6N9Sgfx5kWAA==",
+    "approvers": [
+      {
+        "agent": "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY",
+        "operator": "fixture-c.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-10T00:48:20.840Z"
+      },
+      {
+        "agent": "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc",
+        "operator": "fixture-d.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-10T00:48:23.600Z"
+      }
+    ],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":1,\"path\":[\"sha256:5d61021331a174d1410702e083f0565d784ebf76d6bec91bebfb4950704ed320\",\"sha256:48ce15d85a4d2092d8e2278393aced828a73ad4583de757e55b7ab337a2d102f\",\"sha256:0f4f44e59a27b76ba0a8aebf31de1f198caad1a033882e32ac04e0e22684ac13\"],\"size\":8}",
+      "position": 23,
+      "witnesses": [
+        "mfFE1kyZEj0v-4w_opgs3YZSpH3PwXBdjsj13PRMXY41Fq6jDSkLQo9Cz8yP6Jv5SV6OTFWrdlumPmpmwIMhAg",
+        "8-cy0e41j7Msp-YQ_BiHGeCh1CVtxuYBZD-PUK0FiLk3FUMm00BuocofDxcLPgCJrmF5YYMPevc6W2gDhN9BDg"
+      ],
+      "sealed_at": "2026-09-10T00:50:19.241Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": "2026-09-10T00:48:23.600Z",
+    "last_confirmed": "2026-09-10",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "verified",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": "stated",
+    "test_verdict": null,
+    "trusted_count_at_decision": 4,
+    "read_share_slots": [
+      {
+        "operator": "fixture-c.nomankind.ai",
+        "seq": 25
+      },
+      {
+        "operator": "fixture-d.nomankind.ai",
+        "seq": 26
+      }
+    ],
+    "revalidations": [
+      {
+        "request_seq": 28,
+        "requester": "1F916:ZJTlpf93Xr9RNGeixeFbkMbnxz8Mbdb4PGPO9AiCtBc",
+        "operator": "fixture-a.nomankind.ai",
+        "source": "operator",
+        "requested_at": "2026-09-10T00:48:28.276Z",
+        "assigned": null,
+        "outcome": "held",
+        "resolved_at": "2026-09-10T01:26:06.074Z",
+        "checker": "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY",
+        "correction_entry_id": null
+      }
+    ]
+  },
+  "entry_hash": "sha256:9c8f3d40641ad6cc37315bb0a943edfa2a007fadfb6702e349e12be144855921"
+}

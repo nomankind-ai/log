@@ -1,0 +1,110 @@
+{
+  "entry": {
+    "id": "nmk_005580467422968b9bd17bf058305aef",
+    "subject": "example/demo-model",
+    "category": "limit",
+    "claim": "demo checkpoint seed: example/demo-model request limit is documented at its cited page",
+    "before": "demo checkpoint seed: no documented request limit",
+    "after": "demo checkpoint seed: the cited page is the documented request limit",
+    "effective_at": "2026-09-08",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://example.com/",
+    "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+    "norm_version": "norm-v1.2",
+    "supersedes": "nmk_cc64299e1653fd8cac4b819f870274bb",
+    "author": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+    "author_operator": null,
+    "submitted_at": "2026-09-09T01:58:14.095Z",
+    "signature": "Ws1KTFp1iRNPPQXTOyZvmkvz8QgcyHH2f2YaXpeV+Z3KRn+SALHysZvUTJMbsHnbDm0YeGEs+gGXC9XkfWvvBA==",
+    "approvers": [
+      {
+        "agent": "1F916:ZJTlpf93Xr9RNGeixeFbkMbnxz8Mbdb4PGPO9AiCtBc",
+        "operator": "fixture-a.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-09T01:58:22.214Z"
+      },
+      {
+        "agent": "1F916:GwNvWtrOr42ZNLbje4GEyJDeVfCi07zOI8B4H9yxRK8",
+        "operator": "fixture-b.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-09T01:58:24.310Z"
+      }
+    ],
+    "reconfirmations": [],
+    "disputes": [
+      {
+        "id": "nmk_aa3ce28b365893fece13f1be17b515d9",
+        "challenger": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+        "operator": null,
+        "citation": "https://example.com/",
+        "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+        "outcome": "upheld",
+        "reason": null,
+        "filed_at": "2026-09-10T00:48:16.167Z",
+        "resolved_at": "2026-09-10T00:48:24.369Z"
+      }
+    ],
+    "failure_reports": [
+      {
+        "reporter": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+        "operator": null,
+        "observed": "called the documented limit and got a different error",
+        "artifact_hash": "sha256:8d5a87db2761a3be27d8b0c062af729e9801a0bfc0a9f3ac28f461988b0b1a39",
+        "citation": "https://example.com/",
+        "upgraded_to": "nmk_aa3ce28b365893fece13f1be17b515d9",
+        "filed_at": "2026-09-10T00:48:12.813Z"
+      }
+    ],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":14,\"path\":[\"sha256:7d72b1208f18b0d2172f6e581355486d11cb3f095a968bff24641e8531ce96dd\",\"sha256:744ebc715a368d383b53cba5660bbb8972b31d9259d736e79022e56f02f1a77d\",\"sha256:49830ce7e37493da5c678eab46ba15cdb8081dd6409d41f09abc36d4f5c34782\",\"sha256:f7de6de46b7d6765dc88dec3ac69371dcfda3d366dee93812375a7e1556dfb70\",\"sha256:2dad3ff2a129f4a1763f2cdb39b2222302fd1c8fd8a48516c7be7a6b55b39293\"],\"size\":17}",
+      "position": 14,
+      "witnesses": [
+        "ejFIWdR0ic9YcV7O0r3m176OTTOpPW0ODDQlmUEb1kndFuqQF3Vyd9XWWLiD2j_AlVAWYDwfPMCkF8heHqM3BQ",
+        "Fd7yYKmj1EF9UiuitAiqY0_rxZV0zzcfd_cHHGcqzWL7zuTOaXAPUPEWEfc6R1B5W9DFtxRKfIsw1b28FZdmCw"
+      ],
+      "sealed_at": "2026-09-09T04:49:44.871Z"
+    },
+    "staleness_window_days": 90,
+    "verified_at": "2026-09-09T01:58:24.310Z",
+    "last_confirmed": "2026-09-09",
+    "expires_at": "2026-12-08",
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": "nmk_aa3ce28b365893fece13f1be17b515d9",
+    "status": "overturned",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": "stated",
+    "test_verdict": null,
+    "trusted_count_at_decision": 3,
+    "read_share_slots": [
+      {
+        "operator": "fixture-a.nomankind.ai",
+        "seq": 15
+      },
+      {
+        "operator": "fixture-b.nomankind.ai",
+        "seq": 16
+      }
+    ],
+    "revalidations": []
+  },
+  "entry_hash": "sha256:69baeeaa266f4d5305b971628c038c7f47beac759e1f9ef0ebecc61221682ee5"
+}

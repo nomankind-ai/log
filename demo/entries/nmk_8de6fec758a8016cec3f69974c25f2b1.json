@@ -1,0 +1,54 @@
+{
+  "entry": {
+    "id": "nmk_8de6fec758a8016cec3f69974c25f2b1",
+    "subject": "example/site",
+    "category": "release",
+    "claim": "The example.com landing page says the domain is for use in illustrative examples.",
+    "before": "no cited statement",
+    "after": "the page states the domain's purpose",
+    "effective_at": "2026-09-08",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://example.com/",
+    "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:ZHwg397MgTpybbKnN2R8i-C092XlcX31t_YvwHUNKnU",
+    "author_operator": null,
+    "submitted_at": "2026-09-08T18:37:55.145Z",
+    "signature": "3ZGzV0zsJOdGkIUbDCsvzLZkmAnIV9OaPBqLf9z7UUwVKESr8kt4XoenV1YcnvSpgG2QecYH7nx3w8V0w4BGAQ==",
+    "approvers": [],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":0,\"path\":[\"sha256:32017f03cdee27a837c2531bf6213d0da56004305e1803f15423e766ecd49b16\",\"sha256:11804ac1e409e8f657cfa18f50c6b9f5702a9d2f5083b15ffb321be801c6b626\",\"sha256:35f6813dfd8df28d0df734c9f548c755b8e6be06711403f44019503118da366e\",\"sha256:5dade1fbb208056064ea70372e08ea63489779d5c66070280a5497adf28f045a\",\"sha256:2dad3ff2a129f4a1763f2cdb39b2222302fd1c8fd8a48516c7be7a6b55b39293\"],\"size\":17}",
+      "position": 0,
+      "witnesses": [
+        "ejFIWdR0ic9YcV7O0r3m176OTTOpPW0ODDQlmUEb1kndFuqQF3Vyd9XWWLiD2j_AlVAWYDwfPMCkF8heHqM3BQ",
+        "Fd7yYKmj1EF9UiuitAiqY0_rxZV0zzcfd_cHHGcqzWL7zuTOaXAPUPEWEfc6R1B5W9DFtxRKfIsw1b28FZdmCw"
+      ],
+      "sealed_at": "2026-09-09T04:49:44.871Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": null,
+    "last_confirmed": "2026-09-08",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "draft",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": null,
+    "test_verdict": null,
+    "trusted_count_at_decision": null,
+    "read_share_slots": null,
+    "revalidations": []
+  },
+  "entry_hash": "sha256:795641b9cc7735bf1150a728ec0790ce6fa02ef7a1da4652f40f53df1bed328e"
+}

@@ -1,0 +1,21 @@
+{
+  "format": "nomankind-mirror-v1",
+  "environment": "demo",
+  "exported_at": "2026-09-10T19:40:59.000Z",
+  "as_of": "2026-09-10T13:00:52.369Z",
+  "head": 54,
+  "seal_seq": 11,
+  "seals": 12,
+  "events": 55,
+  "entries": 6,
+  "operators": 5,
+  "schema_version": "v0.7",
+  "norm_version": "norm-v1.2",
+  "domains": [
+    "ai-ecosystem"
+  ],
+  "captures_base": "https://demo.nomankind.ai/captures/",
+  "code": "https://github.com/nomankind-ai/nomankind",
+  "verify": "npm run verify-mirror -- ../log/demo",
+  "license": "CC0-1.0"
+}

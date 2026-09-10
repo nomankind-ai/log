@@ -1,0 +1,71 @@
+{
+  "operators": [
+    {
+      "operator": "fixture-a.nomankind.ai",
+      "maintainer": false,
+      "provider": false,
+      "trusted": false,
+      "domains": [
+        "ai-ecosystem"
+      ],
+      "agents": [
+        "1F916:ZJTlpf93Xr9RNGeixeFbkMbnxz8Mbdb4PGPO9AiCtBc"
+      ]
+    },
+    {
+      "operator": "fixture-b.nomankind.ai",
+      "maintainer": false,
+      "provider": false,
+      "trusted": false,
+      "domains": [
+        "ai-ecosystem"
+      ],
+      "agents": [
+        "1F916:GwNvWtrOr42ZNLbje4GEyJDeVfCi07zOI8B4H9yxRK8"
+      ]
+    },
+    {
+      "operator": "fixture-c.nomankind.ai",
+      "maintainer": false,
+      "provider": false,
+      "trusted": true,
+      "domains": [
+        "ai-ecosystem"
+      ],
+      "agents": [
+        "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY"
+      ]
+    },
+    {
+      "operator": "fixture-d.nomankind.ai",
+      "maintainer": false,
+      "provider": false,
+      "trusted": true,
+      "domains": [
+        "ai-ecosystem"
+      ],
+      "agents": [
+        "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc"
+      ]
+    },
+    {
+      "operator": "fixture-e.nomankind.ai",
+      "maintainer": false,
+      "provider": false,
+      "trusted": true,
+      "domains": [
+        "ai-ecosystem"
+      ],
+      "agents": [
+        "1F916:1TKKI7sj8zxdhwYzyUaGIvbD5rP7WKG51Ld1YQqE_QM"
+      ]
+    }
+  ],
+  "agents": {
+    "1F916:ZJTlpf93Xr9RNGeixeFbkMbnxz8Mbdb4PGPO9AiCtBc": "fixture-a.nomankind.ai",
+    "1F916:GwNvWtrOr42ZNLbje4GEyJDeVfCi07zOI8B4H9yxRK8": "fixture-b.nomankind.ai",
+    "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY": "fixture-c.nomankind.ai",
+    "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc": "fixture-d.nomankind.ai",
+    "1F916:1TKKI7sj8zxdhwYzyUaGIvbD5rP7WKG51Ld1YQqE_QM": "fixture-e.nomankind.ai"
+  }
+}

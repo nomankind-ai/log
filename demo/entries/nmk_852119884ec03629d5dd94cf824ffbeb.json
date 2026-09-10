@@ -1,0 +1,89 @@
+{
+  "entry": {
+    "id": "nmk_852119884ec03629d5dd94cf824ffbeb",
+    "subject": "example/example-domain",
+    "category": "limit",
+    "domain": "ai-ecosystem",
+    "claim": "The example.com landing page is served with the title Example Domain (first v0.7 entry on demo)",
+    "before": "no title recorded",
+    "after": "title Example Domain",
+    "effective_at": "2026-09-10",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://example.com/",
+    "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+    "author_operator": null,
+    "submitted_at": "2026-09-10T07:29:32.154Z",
+    "signature": "IrRw2mOvsnqZSCGYLHrTf9UF22OrgI1trKFBVW8083wNL1ds7ex8GyWd3zj9ccLFv62s0d+P39IoGdMEbioDDg==",
+    "approvers": [
+      {
+        "agent": "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY",
+        "operator": "fixture-c.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-10T07:29:33.625Z"
+      },
+      {
+        "agent": "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc",
+        "operator": "fixture-d.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-10T07:29:35.498Z"
+      }
+    ],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":0,\"path\":[\"sha256:449f96bcadc470d828bf436f3ef87177c887b6972524505e36ab80676933a037\",\"sha256:43c35b948319fa45d083c46fdfd2a7c85b2bf6d39d7e1d8bc53969df3da35fab\"],\"size\":3}",
+      "position": 40,
+      "witnesses": [
+        "g9l8O9pS4H9i8UZty75yEZweNbv9zson2v4iVmh47pCfRMSiSDeS-2kZIZ4q4K95FveTH6XPY0AeBPwl-w2wCA",
+        "4hzqGwvjBku75prqS_9nATZOiX3R0pc0GF8j36O7uG4jGN9BQQfmOGrkws5pb9-9o_XtlER2QDsTldC-IylHCw"
+      ],
+      "sealed_at": "2026-09-10T07:30:03.000Z"
+    },
+    "staleness_window_days": 90,
+    "verified_at": "2026-09-10T07:29:35.498Z",
+    "last_confirmed": "2026-09-10",
+    "expires_at": "2026-12-09",
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "verified",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": "stated",
+    "test_verdict": null,
+    "trusted_count_at_decision": 2,
+    "read_share_slots": [
+      {
+        "operator": "fixture-c.nomankind.ai",
+        "seq": 41
+      },
+      {
+        "operator": "fixture-d.nomankind.ai",
+        "seq": 42
+      }
+    ],
+    "revalidations": []
+  },
+  "entry_hash": "sha256:87c919505b1714bad8e0a6b1c9a0261f382415860f99994df23d50cad3e3cb30"
+}
