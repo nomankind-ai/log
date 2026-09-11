@@ -48,7 +48,12 @@
     "test_verdict": null,
     "trusted_count_at_decision": null,
     "read_share_slots": null,
-    "revalidations": []
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "example.com",
+      "provider": "example"
+    }
   },
   "entry_hash": "sha256:795641b9cc7735bf1150a728ec0790ce6fa02ef7a1da4652f40f53df1bed328e"
 }

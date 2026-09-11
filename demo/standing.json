@@ -1,0 +1,106 @@
+{
+  "position": 55,
+  "formula": [
+    "STANDING_VALIDATION_VOLUNTEERED",
+    "STANDING_VALIDATION_ASSIGNED",
+    "STANDING_SUBMISSION_VERIFIED",
+    "STANDING_DISPUTE_UPHELD",
+    "STANDING_OVERTURNED_SIGNER",
+    "STANDING_ASSIGNMENT_MISSED",
+    "DISPUTE_STAKE_STANDING",
+    "REVALIDATION_REQUEST_STAKE_STANDING",
+    "STANDING_DECAY_PAUSED"
+  ],
+  "operators": [
+    {
+      "operator": "fixture-a.nomankind.ai",
+      "earned": 2,
+      "burned": 6,
+      "locked": 0,
+      "standing": -4,
+      "available": -4,
+      "counts": {
+        "validations_volunteered": 2,
+        "validations_assigned": 0,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "overturned": 1,
+        "missed": 0,
+        "forfeits": 1
+      },
+      "position": 55
+    },
+    {
+      "operator": "fixture-b.nomankind.ai",
+      "earned": 2,
+      "burned": 5,
+      "locked": 0,
+      "standing": -3,
+      "available": -3,
+      "counts": {
+        "validations_volunteered": 2,
+        "validations_assigned": 0,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "overturned": 1,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 55
+    },
+    {
+      "operator": "fixture-c.nomankind.ai",
+      "earned": 6,
+      "burned": 0,
+      "locked": 0,
+      "standing": 6,
+      "available": 6,
+      "counts": {
+        "validations_volunteered": 3,
+        "validations_assigned": 1,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "overturned": 0,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 55
+    },
+    {
+      "operator": "fixture-d.nomankind.ai",
+      "earned": 3,
+      "burned": 0,
+      "locked": 0,
+      "standing": 3,
+      "available": 3,
+      "counts": {
+        "validations_volunteered": 3,
+        "validations_assigned": 0,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "overturned": 0,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 55
+    },
+    {
+      "operator": "fixture-e.nomankind.ai",
+      "earned": 0,
+      "burned": 0,
+      "locked": 0,
+      "standing": 0,
+      "available": 0,
+      "counts": {
+        "validations_volunteered": 0,
+        "validations_assigned": 0,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "overturned": 0,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 55
+    }
+  ]
+}

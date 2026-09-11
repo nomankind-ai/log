@@ -95,7 +95,12 @@
         "checker": "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY",
         "correction_entry_id": null
       }
-    ]
+    ],
+    "source": {
+      "class": "official",
+      "matched_host": "example.com",
+      "provider": "example"
+    }
   },
   "entry_hash": "sha256:9c8f3d40641ad6cc37315bb0a943edfa2a007fadfb6702e349e12be144855921"
 }

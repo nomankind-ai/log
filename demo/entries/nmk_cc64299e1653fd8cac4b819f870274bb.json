@@ -82,7 +82,12 @@
         "seq": 12
       }
     ],
-    "revalidations": []
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "example.com",
+      "provider": "example"
+    }
   },
   "entry_hash": "sha256:07d69e183d6fd094cbb1f728a1a2d3f653d6ac4954ae70b3a126ada3974b8891"
 }

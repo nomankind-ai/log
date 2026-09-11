@@ -104,7 +104,12 @@
         "seq": 16
       }
     ],
-    "revalidations": []
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "example.com",
+      "provider": "example"
+    }
   },
   "entry_hash": "sha256:69baeeaa266f4d5305b971628c038c7f47beac759e1f9ef0ebecc61221682ee5"
 }
