@@ -12,7 +12,8 @@
     "seal_seq": 0,
     "stale": false,
     "superseded_by": null,
-    "entry_hash": "sha256:795641b9cc7735bf1150a728ec0790ce6fa02ef7a1da4652f40f53df1bed328e"
+    "entry_hash": "sha256:795641b9cc7735bf1150a728ec0790ce6fa02ef7a1da4652f40f53df1bed328e",
+    "release_date": "2026-10-09T04:49:44.871Z"
   },
   {
     "id": "nmk_cc64299e1653fd8cac4b819f870274bb",
@@ -27,7 +28,8 @@
     "seal_seq": 0,
     "stale": false,
     "superseded_by": "nmk_005580467422968b9bd17bf058305aef",
-    "entry_hash": "sha256:07d69e183d6fd094cbb1f728a1a2d3f653d6ac4954ae70b3a126ada3974b8891"
+    "entry_hash": "sha256:07d69e183d6fd094cbb1f728a1a2d3f653d6ac4954ae70b3a126ada3974b8891",
+    "release_date": "2026-10-09T04:49:44.871Z"
   },
   {
     "id": "nmk_005580467422968b9bd17bf058305aef",
@@ -42,7 +44,8 @@
     "seal_seq": 0,
     "stale": false,
     "superseded_by": null,
-    "entry_hash": "sha256:69baeeaa266f4d5305b971628c038c7f47beac759e1f9ef0ebecc61221682ee5"
+    "entry_hash": "sha256:69baeeaa266f4d5305b971628c038c7f47beac759e1f9ef0ebecc61221682ee5",
+    "release_date": "2026-10-09T04:49:44.871Z"
   },
   {
     "id": "nmk_aa3ce28b365893fece13f1be17b515d9",
@@ -57,7 +60,8 @@
     "seal_seq": 3,
     "stale": false,
     "superseded_by": null,
-    "entry_hash": "sha256:9c8f3d40641ad6cc37315bb0a943edfa2a007fadfb6702e349e12be144855921"
+    "entry_hash": "sha256:9c8f3d40641ad6cc37315bb0a943edfa2a007fadfb6702e349e12be144855921",
+    "release_date": "2026-10-10T00:50:19.241Z"
   },
   {
     "id": "nmk_852119884ec03629d5dd94cf824ffbeb",
@@ -72,7 +76,8 @@
     "seal_seq": 8,
     "stale": false,
     "superseded_by": null,
-    "entry_hash": "sha256:87c919505b1714bad8e0a6b1c9a0261f382415860f99994df23d50cad3e3cb30"
+    "entry_hash": "sha256:87c919505b1714bad8e0a6b1c9a0261f382415860f99994df23d50cad3e3cb30",
+    "release_date": "2026-10-10T07:30:03.000Z"
   },
   {
     "id": "nmk_4d7c5efb907732f6a54de4d958078663",
@@ -87,6 +92,71 @@
     "seal_seq": 9,
     "stale": false,
     "superseded_by": null,
-    "entry_hash": "sha256:6be4b5a5557d61dd34ecda417c6d59637785ea8afe5624c4aa26b76722c3ab55"
+    "entry_hash": "sha256:6be4b5a5557d61dd34ecda417c6d59637785ea8afe5624c4aa26b76722c3ab55",
+    "release_date": "2026-10-10T12:55:48.700Z"
+  },
+  {
+    "id": "nmk_5eadefcc2a672116aa3ce270abe51776",
+    "domain": "ai-ecosystem",
+    "subject": "example/example-domain",
+    "category": "limit",
+    "status": "rejected",
+    "tier": "stated",
+    "effective_tier": null,
+    "submitted_at": "2026-09-11T03:24:25.841Z",
+    "position": 56,
+    "seal_seq": 13,
+    "stale": false,
+    "superseded_by": null,
+    "entry_hash": "sha256:60b6301a1685ee80bb7c2e086f1ff1244793b69832feb4a7810ff5e55d730144",
+    "release_date": "2026-10-11T03:25:06.000Z"
+  },
+  {
+    "id": "nmk_40ddff3cdbce64600dde8244ee67ed97",
+    "domain": "ai-ecosystem",
+    "subject": "example/demo-model",
+    "category": "limit",
+    "status": "draft",
+    "tier": "stated",
+    "effective_tier": null,
+    "submitted_at": "2026-09-11T13:07:51.959Z",
+    "position": 59,
+    "seal_seq": 15,
+    "stale": false,
+    "superseded_by": null,
+    "entry_hash": "sha256:a64358b39ab7c6ba0be49efaa83e0f409912b76878e65d4d8ebf3cb2fff77972",
+    "release_date": "2026-10-11T13:09:21.082Z"
+  },
+  {
+    "id": "nmk_bbc08ac15a67a82f9c917c4694705dd4",
+    "domain": "ai-governance",
+    "subject": "eu/ai-act",
+    "category": "in_force",
+    "status": "verified",
+    "tier": "stated",
+    "effective_tier": "stated",
+    "submitted_at": "2026-09-11T19:18:36.760Z",
+    "position": 64,
+    "seal_seq": 16,
+    "stale": false,
+    "superseded_by": null,
+    "entry_hash": "sha256:44c5941b251d55fc18ce05a07ad7499d17f143d87b50fa2b33ec981b8887fffe",
+    "release_date": "2026-10-11T19:20:16.300Z"
+  },
+  {
+    "id": "nmk_e8021cc9617c9b3942d40e687870b9eb",
+    "domain": "ai-safety",
+    "subject": "anthropic/usage-policy",
+    "category": "commitment_published",
+    "status": "verified",
+    "tier": "stated",
+    "effective_tier": "stated",
+    "submitted_at": "2026-09-11T19:18:41.057Z",
+    "position": 65,
+    "seal_seq": 16,
+    "stale": false,
+    "superseded_by": null,
+    "entry_hash": "sha256:2427c2303809b218ebaf37c1f323a27241068fa2d0b0b8f4d4a1565508207618",
+    "release_date": "2026-10-11T19:20:16.300Z"
   }
 ]

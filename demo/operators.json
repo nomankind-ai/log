@@ -30,7 +30,9 @@
       "provider": false,
       "trusted": true,
       "domains": [
-        "ai-ecosystem"
+        "ai-ecosystem",
+        "ai-governance",
+        "ai-safety"
       ],
       "agents": [
         "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY"
@@ -42,7 +44,9 @@
       "provider": false,
       "trusted": true,
       "domains": [
-        "ai-ecosystem"
+        "ai-ecosystem",
+        "ai-governance",
+        "ai-safety"
       ],
       "agents": [
         "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc"
