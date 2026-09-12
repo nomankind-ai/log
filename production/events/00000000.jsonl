@@ -1,1 +1,1 @@
-{"seq":0,"at":"2026-09-08T22:20:13.000Z","type":"pool_snapshot","entry_id":null,"payload":{"operators":[]},"prev_hash":null,"hash":"sha256:1d015bbf89c1cdf4b341864f737d7ade246372db3e9682713c76392b98ea6138"}
+{"seq":0,"at":"2026-09-08T22:20:13.000Z","type":"pool_snapshot","entry_id":null,"payload":null,"prev_hash":null,"hash":"sha256:1d015bbf89c1cdf4b341864f737d7ade246372db3e9682713c76392b98ea6138","withheld":true}

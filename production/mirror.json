@@ -1,18 +1,25 @@
 {
-  "format": "nomankind-mirror-v1",
+  "format": "nomankind-mirror-v3",
   "environment": "production",
-  "exported_at": "2026-09-11T00:00:03.502Z",
+  "exported_at": "2026-09-12T00:00:32.000Z",
   "as_of": "2026-09-09T17:47:27.359Z",
   "head": 0,
   "seal_seq": 0,
+  "release_window_days": 30,
+  "released_head": null,
   "seals": 1,
   "events": 1,
   "entries": 0,
   "operators": 0,
+  "attestations": 0,
+  "standing_position": -1,
+  "ledger_rows": 0,
   "schema_version": "v0.7",
   "norm_version": "norm-v1.2",
   "domains": [
-    "ai-ecosystem"
+    "ai-ecosystem",
+    "ai-governance",
+    "ai-safety"
   ],
   "captures_base": "https://app.nomankind.ai/captures/",
   "code": "https://github.com/nomankind-ai/nomankind",
