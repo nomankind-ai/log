@@ -26,21 +26,50 @@ Each directory is a complete, self-contained export of that log's sealed state.
 
 | Path | What it holds |
 | --- | --- |
-| `mirror.json` | The manifest: format, environment, `exported_at`, `as_of`, `head`, `seal_seq`, the counts, the schema and norm versions, the registered domains, where the captures are served from, and the verify command. |
-| `events/<seal seq, 8 digits>.jsonl` | The events one seal covers, in seq order, hash chain and all. A seal's range never moves, so a seal's file never changes once written. |
+| `mirror.json` | The manifest: `format` (`nomankind-mirror-v3`), environment, `exported_at`, `as_of`, `head`, `seal_seq`, the release window in days and the released head, the counts, the schema and norm versions, the registered domains, where the captures are served from, and the verify command. |
+| `events/<seal seq, 8 digits>.jsonl` | The events one seal covers, in seq order, hash chain and all — in full once that seal has released, and until then one hash line per event: the seq, the instant, the type, the entry id, the chain link and the hash, with `payload: null` and `withheld: true`. A seal's range never moves, so a seal's file changes exactly once, on its release date. |
 | `seals.jsonl` | Every seal in seq order, with its Merkle root, its chain link, its witnesses and its registry receipt. |
 | `anchors.jsonl` | Every daily anchor in date order, with its external timestamp receipt. |
 | `operators.json` | Every operator — maintainer, provider and trusted flags, the domains it is attested in, the agents bound to it — and the agent-to-operator map. |
-| `entries/<entry id>.json` | One entry as it stood at the sealed head: the derived entry with its seal object, its sidecar, and its core hash. |
-| `index.json` | One row per entry in submission order, for finding things without opening every file. |
+| `entries/<entry id>.json` | One entry as it stood at the sealed head: the derived entry with its seal object, its sidecar, and its core hash. Written from the release date of the entry's own submission event, and not before it. |
+| `index.json` | One row per entry in submission order — every column of it proof, and `release_date` the day the entry's file appears — for finding things without opening every file. |
+| `attestations/<attestation id>.json` | One drift attestation as the sealed events fold it — the probes, the scorers, the scores, the status and the date — with the model's answers beside it. Only attestations the seals cover. |
+| `standing.json` | Every operator's standing at the sealed head, with the published formula's own term names beside it, sorted by operator id. Recomputed from the events, never copied off a table. |
+| `ledger.jsonl` | Every ledger row the log itself proves, in the order the events produced them: read shares, the halves a stale entry withheld, the daily reconciliation, clawbacks, reconfirmation bounties, and the stakes a dispute or a revalidation put up with their refunds, forfeits and rewards. No payouts: money leaving through a payment provider is not a function of the log. |
+
+A clone pulled before any of this is still good: a directory whose manifest says
+`nomankind-mirror-v1` is checked and replayed as what v1 was — the first seven
+rows, and entry sidecars without the derived `source` — and one that says
+`nomankind-mirror-v2` as the whole sealed log it was, before the window.
 
 Every JSON document is two-space indented with a trailing newline; every
-`.jsonl` file is one compact document per line. Two exports of the same sealed
-head are byte-identical, so a diff in this repository's history is a change in
-the log and never a change in formatting.
+`.jsonl` file is one compact document per line. The identity is per file, not
+per directory: for the same sealed content at the same clock, a seal's events
+file, an entry's file, a seal row and an anchor row come out byte for byte the
+same in every export, so a diff in one of those files is a change in the log and
+never a change in formatting. "At the same clock" is the whole of the caveat: an
+entry's file carries the derived entry, and `stale` is derived against the day
+it is read, so an entry whose freshness window runs out flips that one field on
+its expiry date with nothing sealed having changed. The directory itself moves every day, and for two reasons
+that say nothing about any record: `mirror.json` carries the `exported_at` of
+the run that wrote it, and — once the log has ever issued a read receipt — the
+sweep appends one `read_count` event for every finished UTC day after that,
+even when it counts nothing, so there is a new event, a new seal and a new head
+each day. Before the first receipt there is no day to count and the sweep
+publishes nothing.
 
 Nothing unsealed is ever here. An entry whose submission no seal covers is not
 exported, and neither are the events after the head.
+
+**The release window.** An event's content is public thirty days after the seal
+that covers it; an entry's is public thirty days after its submission event's
+seal. Until then this repository carries the proof and not the content: every
+hash, every seal, every anchor, every operator record, and every entry's id,
+domain, subject, category, status, effective tier, entry hash, seal, signers and
+release date — with the payloads as hash lines and no entry file yet. On the
+release date the content is public, CC0 and here, in the same files. Reading it
+before then is what an API key buys, and what an operator's own signed request
+reaches.
 
 ## What is not in here
 
@@ -72,8 +101,20 @@ re-derived from these very events and diffed field by field, its `entry_hash`,
 its row in `index.json`, its core against the core the log sealed, and the
 author's signature over that core — followed, for an entry sealed under schema
 v0.7, by the same offline verifier the whitepaper's "two files and one script"
-promise rests on. One line per item, one summary line, and the exit code is the
-answer: 0 when nothing failed, 1 when something did.
+promise rests on. Then the three files nothing was read for: every attestation
+re-derived and put through the attestation verifier — the id, the score
+signatures, the scorers, the hashes — `standing.json` recomputed at the sealed
+head, and `ledger.jsonl` recomputed and diffed line by line. One line per item,
+one summary line, and the exit code is the answer: 0 when nothing failed, 1 when
+something did.
+
+What a hash line changes: the chain is checked over it — the seq, the link, and
+the hash as the leaf every seal's root is over — and everything that is a fold
+over payloads is counted as `withheld` rather than passed, because a payload
+nobody was given cannot be folded. The entries whose own events are all here are
+re-derived and checked exactly as ever. A `withheld` count stands beside `ok`,
+`legacy` and `failed` in the summary, and it falls to zero of its own accord as
+the windows run out.
 
 A record sealed under the older schema v0.6 is reported as `legacy` rather than
 `ok`: everything in the paragraph above is checked over it, and only the last
