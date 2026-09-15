@@ -1,6 +1,18 @@
 {
   "operators": [
     {
+      "operator": "dryrun-1.nomankind.ai",
+      "maintainer": false,
+      "provider": false,
+      "trusted": false,
+      "domains": [
+        "ai-ecosystem"
+      ],
+      "agents": [
+        "1F916:wUJssmhIQodRnXYf-RzjJlk_Rns2-iiGCLV_yuX_91A"
+      ]
+    },
+    {
       "operator": "fixture-a.nomankind.ai",
       "maintainer": false,
       "provider": false,
@@ -66,6 +78,7 @@
     }
   ],
   "agents": {
+    "1F916:wUJssmhIQodRnXYf-RzjJlk_Rns2-iiGCLV_yuX_91A": "dryrun-1.nomankind.ai",
     "1F916:ZJTlpf93Xr9RNGeixeFbkMbnxz8Mbdb4PGPO9AiCtBc": "fixture-a.nomankind.ai",
     "1F916:GwNvWtrOr42ZNLbje4GEyJDeVfCi07zOI8B4H9yxRK8": "fixture-b.nomankind.ai",
     "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY": "fixture-c.nomankind.ai",

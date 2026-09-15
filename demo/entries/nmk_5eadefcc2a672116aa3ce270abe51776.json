@@ -1,0 +1,85 @@
+{
+  "entry": {
+    "id": "nmk_5eadefcc2a672116aa3ce270abe51776",
+    "subject": "example/example-domain",
+    "category": "limit",
+    "domain": "ai-ecosystem",
+    "claim": "The example.com landing page is served with the title Example Domain (first v0.7 entry on demo) (duplicate by hand, M24a)",
+    "before": "no title recorded",
+    "after": "title Example Domain",
+    "effective_at": "2026-09-10",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://example.com/",
+    "snapshot_hash": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+    "author_operator": null,
+    "submitted_at": "2026-09-11T03:24:25.841Z",
+    "signature": "SP9Qk8sAEt+h3ouTEzBe+ZtjkRR7+Davp5OpngsFF3o1ePibLGGcNbzc0TwTI2wOmGU9eXS3LNGydzX4dTslCg==",
+    "approvers": [
+      {
+        "agent": "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY",
+        "operator": "fixture-c.nomankind.ai",
+        "decision": "reject",
+        "reason": "duplicate_claim:nmk_852119884ec03629d5dd94cf824ffbeb",
+        "snapshot_hash": null,
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-11T03:29:43.814Z"
+      },
+      {
+        "agent": "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc",
+        "operator": "fixture-d.nomankind.ai",
+        "decision": "reject",
+        "reason": "duplicate_claim:nmk_852119884ec03629d5dd94cf824ffbeb",
+        "snapshot_hash": null,
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-11T03:29:45.607Z"
+      }
+    ],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":0,\"path\":[],\"size\":1}",
+      "position": 56,
+      "witnesses": [
+        "AkJWjGO6C5oRu4zTNkPXkhrqyxodZLmIvbyfDjI6pqI9apYj_-i-1XpvHPr_cwEdYO3k0JDQB-A8EE3xMfmVCQ",
+        "5A0E0qBQa1DWmlePWsnf-SX5AG5IIW2PksS7mxSFP23WDfx2a028OzM3Dtxmsqm9Bm4YykJIITx5NLV2X9OaCA"
+      ],
+      "sealed_at": "2026-09-11T03:25:06.000Z"
+    },
+    "staleness_window_days": 90,
+    "verified_at": null,
+    "last_confirmed": "2026-09-11",
+    "expires_at": "2026-12-10",
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "rejected",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": null,
+    "test_verdict": null,
+    "trusted_count_at_decision": 3,
+    "read_share_slots": null,
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "example.com",
+      "authority": "example"
+    }
+  },
+  "entry_hash": "sha256:60b6301a1685ee80bb7c2e086f1ff1244793b69832feb4a7810ff5e55d730144"
+}

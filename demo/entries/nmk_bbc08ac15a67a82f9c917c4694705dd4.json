@@ -1,0 +1,94 @@
+{
+  "entry": {
+    "id": "nmk_bbc08ac15a67a82f9c917c4694705dd4",
+    "subject": "eu/ai-act",
+    "category": "in_force",
+    "domain": "ai-governance",
+    "claim": "Regulation (EU) 2024/1689, the Artificial Intelligence Act, is published in the Official Journal and in force, with obligations applying in stages from 2 February 2025.",
+    "before": "not_in_force",
+    "after": "in_force",
+    "effective_at": "2024-08-01",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "snapshot_hash": "sha256:48f27553ddefb5e4c85f922cbf24538694ed7399fc3f446a16890426ad2b8417",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+    "author_operator": null,
+    "submitted_at": "2026-09-11T19:18:36.760Z",
+    "signature": "NmrbTNtxOSSCYozW5O/qbjy4QXFtlGBuHRJdH9nn3L4hMy4tglSwaYZQlQo9Nlr9xlS2aeGREM0VGuo9TXsYDA==",
+    "approvers": [
+      {
+        "agent": "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY",
+        "operator": "fixture-c.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:48f27553ddefb5e4c85f922cbf24538694ed7399fc3f446a16890426ad2b8417",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-11T19:18:42.838Z"
+      },
+      {
+        "agent": "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc",
+        "operator": "fixture-d.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:48f27553ddefb5e4c85f922cbf24538694ed7399fc3f446a16890426ad2b8417",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-11T19:18:45.464Z"
+      }
+    ],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":4,\"path\":[\"sha256:69ec97c37a6c96abc9e9bcc26860a52ec273627d2b45a2e663c9758bb7f7005f\",\"sha256:3f5f18422f86be5f667fad5a29aa9ee2e1c18b44cfc9e12abcbfcebb3cb0e0f2\",\"sha256:c5c7316a916960f54134914ddea0823d45af7b1de89c5463f2c6c62c83bfdc6d\",\"sha256:73419fd240eee4be65ea2701e2931a4ecd66108eb927fa8d707c7a208113a9eb\"],\"size\":10}",
+      "position": 64,
+      "witnesses": [
+        "F9Fp-m-N6r-cetunf2nYEyquayPTig46r3qpv_dMTrlyjwjkkY8RpMwc7SYOV6lsVSQqRIpS21J2CvE1xQ4RDQ",
+        "lh6EhWHGsxE3xGx5dH87hEcgzQbNGuiHjOvynhyDF4gj5LQQHWIiHwf-YdyP8rGY3tNTngxvnYCLmpwpOjTuBQ"
+      ],
+      "sealed_at": "2026-09-11T19:20:16.300Z"
+    },
+    "staleness_window_days": 365,
+    "verified_at": "2026-09-11T19:18:45.464Z",
+    "last_confirmed": "2026-09-11",
+    "expires_at": "2027-09-11",
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "verified",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": "stated",
+    "test_verdict": null,
+    "trusted_count_at_decision": 3,
+    "read_share_slots": [
+      {
+        "operator": "fixture-c.nomankind.ai",
+        "seq": 66
+      },
+      {
+        "operator": "fixture-d.nomankind.ai",
+        "seq": 67
+      }
+    ],
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "eur-lex.europa.eu",
+      "authority": "eu"
+    }
+  },
+  "entry_hash": "sha256:44c5941b251d55fc18ce05a07ad7499d17f143d87b50fa2b33ec981b8887fffe"
+}

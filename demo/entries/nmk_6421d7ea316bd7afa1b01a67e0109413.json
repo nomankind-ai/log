@@ -1,0 +1,60 @@
+{
+  "entry": {
+    "id": "nmk_6421d7ea316bd7afa1b01a67e0109413",
+    "subject": "anthropic/claude-opus-4-1-20250805",
+    "category": "deprecation",
+    "domain": "ai-ecosystem",
+    "claim": "The Anthropic model deprecations page lists claude-opus-4-1-20250805 as Retired, deprecated June 5, 2026 and retired August 5, 2026, with claude-opus-4-8 as the recommended replacement.",
+    "before": "deprecated (announced June 5, 2026)",
+    "after": "retired",
+    "effective_at": "2026-08-05",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "snapshot_hash": "sha256:67ab7a49ca28743338833a19ae87895a7048e45a24df6391e2c26c4c8ed15393",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+    "author_operator": null,
+    "submitted_at": "2026-09-14T03:35:47.967Z",
+    "signature": "tMKhLm7G1BqKJsw/S16hKHLzU2VEDMXGC47017E3Uvq9qt93h/5wFF7bci5QrgLln8mQHbkq/kHogwQBIqpKDQ==",
+    "approvers": [],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":0,\"path\":[],\"size\":1}",
+      "position": 76,
+      "witnesses": [
+        "KXw0gi4RU24DzYATj7ZYRDL78bKdC3tKpaYcmiAgzHduwK12mfUxRd12T5tfdRGYxwfyM-v2NGIxMPW4KLPZDw",
+        "dgdh5SY57LyvJLjkoFJE2VDioAeRkEeB7x1JaZ4u3SLrc2Cw7Bcxf3Lz2TaoV_-xzZgym-WZoZVcK2Us0LMvDQ"
+      ],
+      "sealed_at": "2026-09-14T03:36:33.405Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": null,
+    "last_confirmed": "2026-09-14",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "draft",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": null,
+    "test_verdict": null,
+    "trusted_count_at_decision": null,
+    "read_share_slots": null,
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "claude.com",
+      "authority": "anthropic"
+    }
+  },
+  "entry_hash": "sha256:887d5a9b635e96355d0fbfb04fbf1f2d0e4417fec0bffd2e6ef4a260d72f878c"
+}

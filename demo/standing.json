@@ -1,5 +1,5 @@
 {
-  "position": -1,
+  "position": 77,
   "formula": [
     "STANDING_VALIDATION_VOLUNTEERED",
     "STANDING_VALIDATION_ASSIGNED",
@@ -14,5 +14,132 @@
     "REVALIDATION_REQUEST_STAKE_STANDING",
     "STANDING_DECAY_PAUSED"
   ],
-  "operators": []
+  "operators": [
+    {
+      "operator": "dryrun-1.nomankind.ai",
+      "earned": 1,
+      "burned": 0,
+      "locked": 0,
+      "standing": 1,
+      "available": 1,
+      "counts": {
+        "validations_volunteered": 1,
+        "validations_assigned": 0,
+        "validations_reproduced": 0,
+        "attestations_scored": 0,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "revalidations_changed": 0,
+        "overturned": 0,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 77
+    },
+    {
+      "operator": "fixture-a.nomankind.ai",
+      "earned": 2,
+      "burned": 6,
+      "locked": 0,
+      "standing": -4,
+      "available": -4,
+      "counts": {
+        "validations_volunteered": 2,
+        "validations_assigned": 0,
+        "validations_reproduced": 0,
+        "attestations_scored": 0,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "revalidations_changed": 0,
+        "overturned": 1,
+        "missed": 0,
+        "forfeits": 1
+      },
+      "position": 77
+    },
+    {
+      "operator": "fixture-b.nomankind.ai",
+      "earned": 2,
+      "burned": 5,
+      "locked": 0,
+      "standing": -3,
+      "available": -3,
+      "counts": {
+        "validations_volunteered": 2,
+        "validations_assigned": 0,
+        "validations_reproduced": 0,
+        "attestations_scored": 0,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "revalidations_changed": 0,
+        "overturned": 1,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 77
+    },
+    {
+      "operator": "fixture-c.nomankind.ai",
+      "earned": 12,
+      "burned": 0,
+      "locked": 0,
+      "standing": 12,
+      "available": 12,
+      "counts": {
+        "validations_volunteered": 6,
+        "validations_assigned": 1,
+        "validations_reproduced": 1,
+        "attestations_scored": 1,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "revalidations_changed": 0,
+        "overturned": 0,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 77
+    },
+    {
+      "operator": "fixture-d.nomankind.ai",
+      "earned": 9,
+      "burned": 0,
+      "locked": 0,
+      "standing": 9,
+      "available": 9,
+      "counts": {
+        "validations_volunteered": 6,
+        "validations_assigned": 0,
+        "validations_reproduced": 1,
+        "attestations_scored": 1,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "revalidations_changed": 0,
+        "overturned": 0,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 77
+    },
+    {
+      "operator": "fixture-e.nomankind.ai",
+      "earned": 1,
+      "burned": 0,
+      "locked": 0,
+      "standing": 1,
+      "available": 1,
+      "counts": {
+        "validations_volunteered": 0,
+        "validations_assigned": 0,
+        "validations_reproduced": 0,
+        "attestations_scored": 1,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "revalidations_changed": 0,
+        "overturned": 0,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 77
+    }
+  ]
 }

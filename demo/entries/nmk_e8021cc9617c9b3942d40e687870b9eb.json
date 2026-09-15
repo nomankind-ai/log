@@ -1,0 +1,94 @@
+{
+  "entry": {
+    "id": "nmk_e8021cc9617c9b3942d40e687870b9eb",
+    "subject": "anthropic/usage-policy",
+    "category": "commitment_published",
+    "domain": "ai-safety",
+    "claim": "Anthropic's Usage Policy is published and prohibits using its models to create weapons capable of mass casualties.",
+    "before": "unpublished",
+    "after": "published",
+    "effective_at": "2026-09-01",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://www.anthropic.com/legal/aup",
+    "snapshot_hash": "sha256:305c4cdb2c43ae0fa29e3a8aa7a1b788125c9f07d21b1d54c7f26b61b68c21fd",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+    "author_operator": null,
+    "submitted_at": "2026-09-11T19:18:41.057Z",
+    "signature": "xHUb1eag4LhlJv6Y6haraHLYWLw7Qx/a19iLBBN7ya49N8FZ1Zi580THpcZppYGdhVNmZ4NSZrRvLBCCpzjKDQ==",
+    "approvers": [
+      {
+        "agent": "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY",
+        "operator": "fixture-c.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:305c4cdb2c43ae0fa29e3a8aa7a1b788125c9f07d21b1d54c7f26b61b68c21fd",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-11T19:18:47.729Z"
+      },
+      {
+        "agent": "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc",
+        "operator": "fixture-d.nomankind.ai",
+        "decision": "approve",
+        "reason": null,
+        "snapshot_hash": "sha256:305c4cdb2c43ae0fa29e3a8aa7a1b788125c9f07d21b1d54c7f26b61b68c21fd",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-11T19:18:49.858Z"
+      }
+    ],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":5,\"path\":[\"sha256:158111b775ba95d319873e34c20ca6d1a8fb883e9b37f30010e289ae0a546c35\",\"sha256:3f5f18422f86be5f667fad5a29aa9ee2e1c18b44cfc9e12abcbfcebb3cb0e0f2\",\"sha256:c5c7316a916960f54134914ddea0823d45af7b1de89c5463f2c6c62c83bfdc6d\",\"sha256:73419fd240eee4be65ea2701e2931a4ecd66108eb927fa8d707c7a208113a9eb\"],\"size\":10}",
+      "position": 65,
+      "witnesses": [
+        "F9Fp-m-N6r-cetunf2nYEyquayPTig46r3qpv_dMTrlyjwjkkY8RpMwc7SYOV6lsVSQqRIpS21J2CvE1xQ4RDQ",
+        "lh6EhWHGsxE3xGx5dH87hEcgzQbNGuiHjOvynhyDF4gj5LQQHWIiHwf-YdyP8rGY3tNTngxvnYCLmpwpOjTuBQ"
+      ],
+      "sealed_at": "2026-09-11T19:20:16.300Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": "2026-09-11T19:18:49.858Z",
+    "last_confirmed": "2026-09-11",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "verified",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": "stated",
+    "test_verdict": null,
+    "trusted_count_at_decision": 3,
+    "read_share_slots": [
+      {
+        "operator": "fixture-c.nomankind.ai",
+        "seq": 68
+      },
+      {
+        "operator": "fixture-d.nomankind.ai",
+        "seq": 69
+      }
+    ],
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "anthropic.com",
+      "authority": "anthropic"
+    }
+  },
+  "entry_hash": "sha256:2427c2303809b218ebaf37c1f323a27241068fa2d0b0b8f4d4a1565508207618"
+}
