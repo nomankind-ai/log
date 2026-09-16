@@ -1,5 +1,5 @@
 {
-  "position": 77,
+  "position": 78,
   "formula": [
     "STANDING_VALIDATION_VOLUNTEERED",
     "STANDING_VALIDATION_ASSIGNED",
@@ -34,7 +34,7 @@
         "missed": 0,
         "forfeits": 0
       },
-      "position": 77
+      "position": 78
     },
     {
       "operator": "fixture-a.nomankind.ai",
@@ -55,7 +55,7 @@
         "missed": 0,
         "forfeits": 1
       },
-      "position": 77
+      "position": 78
     },
     {
       "operator": "fixture-b.nomankind.ai",
@@ -76,7 +76,7 @@
         "missed": 0,
         "forfeits": 0
       },
-      "position": 77
+      "position": 78
     },
     {
       "operator": "fixture-c.nomankind.ai",
@@ -97,7 +97,7 @@
         "missed": 0,
         "forfeits": 0
       },
-      "position": 77
+      "position": 78
     },
     {
       "operator": "fixture-d.nomankind.ai",
@@ -118,7 +118,7 @@
         "missed": 0,
         "forfeits": 0
       },
-      "position": 77
+      "position": 78
     },
     {
       "operator": "fixture-e.nomankind.ai",
@@ -139,7 +139,7 @@
         "missed": 0,
         "forfeits": 0
       },
-      "position": 77
+      "position": 78
     }
   ]
 }
