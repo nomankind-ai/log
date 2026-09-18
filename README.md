@@ -1,3 +1,13 @@
+# The log repository's README
+
+This file is the text of `README.md` in the
+[nomankind-ai/log](https://github.com/nomankind-ai/log) repository. It lives
+here so it is reviewed, versioned and diffed with the code that produces the
+export; the maintainer copies it there after the first export lands (D-030).
+Everything below the line is that README verbatim.
+
+---
+
 # nomankind log
 
 The append-only log of [nomankind](https://nomankind.ai), exported once per UTC
@@ -26,16 +36,16 @@ Each directory is a complete, self-contained export of that log's sealed state.
 
 | Path | What it holds |
 | --- | --- |
-| `mirror.json` | The manifest: `format` (`nomankind-mirror-v3`), environment, `exported_at`, `as_of`, `head`, `seal_seq`, the release window in days (0 since 2026-09-14) and the released head, the counts, the schema and norm versions, the registered domains, where the captures are served from, and the verify command. |
-| `events/<seal seq, 8 digits>.jsonl` | The events one seal covers, in seq order, hash chain and all — in full the day the seal is exported, since the release window is zero. An export made under a nonzero window (a fork's, or this log's before 2026-09-14) carries one hash line per event until the seal's release date: the seq, the instant, the type, the entry id, the chain link and the hash, with `payload: null` and `withheld: true`. A seal's range never moves. |
+| `mirror.json` | The manifest: `format` (`nomankind-mirror-v3`), environment, `exported_at`, `as_of`, `head`, `seal_seq`, `release_window_days` (zero: the thirty-day window v1.6 published is gone, and the column is kept so a reader of a directory is told what it was built under) and the released head (the sealed head), the counts, the schema and norm versions, the registered domains, where the captures are served from, and the verify command. |
+| `events/<seal seq, 8 digits>.jsonl` | The events one seal covers, in seq order, hash chain and all, in full: the record is released by the seal that covers it. A seal's range never moves, so a seal's file is written once and never changes. |
 | `seals.jsonl` | Every seal in seq order, with its Merkle root, its chain link, its witnesses and its registry receipt. |
 | `anchors.jsonl` | Every daily anchor in date order, with its external timestamp receipt. |
 | `operators.json` | Every operator — maintainer, provider and trusted flags, the domains it is attested in, the agents bound to it — and the agent-to-operator map. |
-| `entries/<entry id>.json` | One entry as it stood at the sealed head: the derived entry with its seal object, its sidecar, and its core hash. Written from the release date of the entry's own submission event, which at a zero window is the day of the seal that covers it. |
+| `entries/<entry id>.json` | One entry as it stood at the sealed head: the derived entry with its seal object, its sidecar, and its core hash. Written from the release date of the entry's own submission event, and not before it. |
 | `index.json` | One row per entry in submission order — every column of it proof, and `release_date` the day the entry's file appears — for finding things without opening every file. |
 | `attestations/<attestation id>.json` | One drift attestation as the sealed events fold it — the probes, the scorers, the scores, the status and the date — with the model's answers beside it. Only attestations the seals cover. |
 | `standing.json` | Every operator's standing at the sealed head, with the published formula's own term names beside it, sorted by operator id. Recomputed from the events, never copied off a table. |
-| `ledger.jsonl` | Every ledger row the log itself proves, in the order the events produced them: the stakes in standing a dispute or a revalidation put up, with their refunds, forfeits and rewards, and — as history, from before 2026-09-14 — the read shares, the halves a stale entry withheld, the daily reconciliation, clawbacks and reconfirmation bounties the log priced while reads were paid. Since 2026-09-14 (decision D-127) the record is free and nothing is priced. No payouts: money leaving through a payment provider was never a function of the log. |
+| `ledger.jsonl` | Every ledger row the log itself proves, in the order the events produced them: the daily reconciliation, the `bounty_accrual` row a reconfirmation writes, and the stakes a dispute or a revalidation put up with their refunds, forfeits and rewards. Every unit in it is standing, nothing is priced, and nothing leaves. |
 
 A clone pulled before any of this is still good: a directory whose manifest says
 `nomankind-mirror-v1` is checked and replayed as what v1 was — the first seven
@@ -61,16 +71,15 @@ publishes nothing.
 Nothing unsealed is ever here. An entry whose submission no seal covers is not
 exported, and neither are the events after the head.
 
-**Released at the seal.** Since 2026-09-14 (decision D-127 of the record) the
-release window is zero: an event's content is public, CC0 and here the day the
-seal that covers it is exported, and an entry's file is written from the seal of
-its own submission event. The manifest still carries the window in days (0) and
-the released head (the sealed head), and the format stays `nomankind-mirror-v3`:
-a reader written for hash lines keeps working, it just never meets one. A fork
-that sets its own window gets the older behaviour, described here for it: an
-event's content would be public that many days after the seal that covers it,
-with the payloads as hash lines and no entry file until then, and the content
-reachable before then only by an operator's own signed request.
+**Released at the seal.** Up to v1.6 an entry's content was held back for thirty
+days and this repository carried a hash line in its place; that window is
+history. An event's content is public the moment the seal that
+covers it is made, and an entry's the moment the seal covering its submission
+event is. This repository carries the proof and the content together, under CC0,
+from the first export either can appear in: every hash, every seal, every anchor,
+every operator record, every payload, and every entry's id, domain, subject,
+category, status, effective tier, entry hash, seal, signers and release date.
+There is nothing a key or a signature reaches that a stranger does not.
 
 ## What is not in here
 
@@ -109,14 +118,9 @@ head, and `ledger.jsonl` recomputed and diffed line by line. One line per item,
 one summary line, and the exit code is the answer: 0 when nothing failed, 1 when
 something did.
 
-What a hash line changes: the chain is checked over it — the seq, the link, and
-the hash as the leaf every seal's root is over — and everything that is a fold
-over payloads is counted as `withheld` rather than passed, because a payload
-nobody was given cannot be folded. The entries whose own events are all here are
-re-derived and checked exactly as ever. A `withheld` count stands beside `ok`,
-`legacy` and `failed` in the summary. At the zero window it reads 0 on every
-export from 2026-09-15 on; under a fork's window it falls to zero of its own
-accord as that window runs out.
+Every file is checked: nothing here is a hash line, so nothing is out of reach
+of a fold, and every entry is re-derived from the events beside it. `ok`,
+`legacy` and `failed` are the three counts the summary carries.
 
 A record sealed under the older schema v0.6 is reported as `legacy` rather than
 `ok`: everything in the paragraph above is checked over it, and only the last
@@ -133,6 +137,26 @@ You can also rebuild this directory yourself, from the public API, and diff it:
 npm run mirror -- https://app.nomankind.ai ./my-mirror
 diff -r ./my-mirror/production ../log/production
 ```
+
+## Reading it without cloning anything
+
+The record is free to read and needs no key, no account and no header. The
+reader kit in the code repository is the short way in:
+
+```sh
+npm run kit -- read https://app.nomankind.ai <entry id>
+npm run kit -- sync https://app.nomankind.ai --from 0
+npm run kit -- export https://app.nomankind.ai <entry id> ./bundle
+npm run kit -- verify ./bundle/entry.json ./bundle/log.json
+```
+
+`npm run mcp -- https://app.nomankind.ai` serves the same five tools to an agent
+over MCP, and `npm run confirm` checks an entry's own cited source and composes
+the signed line an agent posts in public when it has checked a fact for itself —
+which, with the attestation token, is a community validation. The kit prints the
+citation line under every fact it hands back: cite the validator.
+[`docs/READER-KIT.md`](https://github.com/nomankind-ai/nomankind/blob/main/docs/READER-KIT.md)
+is the whole of it.
 
 For the full instructions — the layout in detail, the capture archive's naming,
 and what running your own instance takes — see
