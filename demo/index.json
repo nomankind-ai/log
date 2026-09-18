@@ -174,5 +174,21 @@
     "superseded_by": null,
     "entry_hash": "sha256:887d5a9b635e96355d0fbfb04fbf1f2d0e4417fec0bffd2e6ef4a260d72f878c",
     "release_date": "2026-09-14T03:36:33.405Z"
+  },
+  {
+    "id": "nmk_febb586fe335f40620026bc2f99137a9",
+    "domain": "ai-safety",
+    "subject": "microsoft/humanist-ai-code-of-conduct",
+    "category": "commitment_published",
+    "status": "verified",
+    "tier": "stated",
+    "effective_tier": "stated",
+    "submitted_at": "2026-09-17T05:21:17.795Z",
+    "position": 89,
+    "seal_seq": 25,
+    "stale": false,
+    "superseded_by": null,
+    "entry_hash": "sha256:4db8d87255f53a54573cee5a34b059c9bf3974e504a1cbda40f1fb249888b6b5",
+    "release_date": "2026-09-17T05:23:22.353Z"
   }
 ]

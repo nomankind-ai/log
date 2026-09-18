@@ -59,7 +59,7 @@
       "sealed_at": "2026-09-11T19:20:16.300Z"
     },
     "staleness_window_days": 365,
-    "verified_at": "2026-09-11T19:18:45.464Z",
+    "verified_at": "2026-09-17T19:26:11.749Z",
     "last_confirmed": "2026-09-11",
     "expires_at": "2027-09-11",
     "stale": false,
@@ -72,23 +72,30 @@
     "needs_replacement": false,
     "effective_tier": "stated",
     "test_verdict": null,
-    "trusted_count_at_decision": 3,
-    "read_share_slots": [
-      {
-        "operator": "fixture-c.nomankind.ai",
-        "seq": 66
-      },
-      {
-        "operator": "fixture-d.nomankind.ai",
-        "seq": 67
-      }
-    ],
+    "trusted_count_at_decision": 6,
+    "read_share_slots": [],
     "revalidations": [],
     "source": {
       "class": "official",
       "matched_host": "eur-lex.europa.eu",
       "authority": "eu"
-    }
+    },
+    "confirmations": [],
+    "verification_class": "mixed",
+    "verification_communities": [
+      "colony"
+    ],
+    "verification_single_venue": true,
+    "verification_layers": [
+      {
+        "kind": "decision",
+        "class": "mixed",
+        "seq": 97,
+        "at": "2026-09-17T19:29:13.121Z",
+        "operator": null
+      }
+    ],
+    "bootstrap": null
   },
   "entry_hash": "sha256:44c5941b251d55fc18ce05a07ad7499d17f143d87b50fa2b33ec981b8887fffe"
 }

@@ -1,7 +1,27 @@
 {
   "operators": [
     {
+      "operator": "colony:nomankind",
+      "kind": "community",
+      "maintainer": false,
+      "provider": false,
+      "trusted": false,
+      "domains": [
+        "ai-governance"
+      ],
+      "agents": [
+        "1F916:c_RLpw4C-LrCU7kYfn2E-OKVEUVmvi2_CoiXhcnB6E4"
+      ],
+      "binding": {
+        "kind": "profile",
+        "url": "https://thecolony.ai/api/v1/users/nomankind",
+        "capture_hash": "sha256:aef07fd51a87212de252679f6948209a716a7ad337712f7a957677a384b31583",
+        "public_key": "c_RLpw4C-LrCU7kYfn2E-OKVEUVmvi2_CoiXhcnB6E4"
+      }
+    },
+    {
       "operator": "dryrun-1.nomankind.ai",
+      "kind": "domain",
       "maintainer": false,
       "provider": false,
       "trusted": false,
@@ -14,6 +34,7 @@
     },
     {
       "operator": "fixture-a.nomankind.ai",
+      "kind": "domain",
       "maintainer": false,
       "provider": false,
       "trusted": false,
@@ -26,6 +47,7 @@
     },
     {
       "operator": "fixture-b.nomankind.ai",
+      "kind": "domain",
       "maintainer": false,
       "provider": false,
       "trusted": false,
@@ -38,6 +60,7 @@
     },
     {
       "operator": "fixture-c.nomankind.ai",
+      "kind": "domain",
       "maintainer": false,
       "provider": false,
       "trusted": true,
@@ -52,6 +75,7 @@
     },
     {
       "operator": "fixture-d.nomankind.ai",
+      "kind": "domain",
       "maintainer": false,
       "provider": false,
       "trusted": true,
@@ -66,6 +90,7 @@
     },
     {
       "operator": "fixture-e.nomankind.ai",
+      "kind": "domain",
       "maintainer": false,
       "provider": false,
       "trusted": true,
@@ -75,14 +100,57 @@
       "agents": [
         "1F916:1TKKI7sj8zxdhwYzyUaGIvbD5rP7WKG51Ld1YQqE_QM"
       ]
+    },
+    {
+      "operator": "seed-a.nomankind.ai",
+      "kind": "domain",
+      "maintainer": false,
+      "provider": false,
+      "trusted": true,
+      "domains": [
+        "ai-safety"
+      ],
+      "agents": [
+        "1F916:cwQjToRYDuq2R0s1iKV8KxlPdxFw6vU-o7O-yPXqXJg"
+      ]
+    },
+    {
+      "operator": "seed-b.nomankind.ai",
+      "kind": "domain",
+      "maintainer": false,
+      "provider": false,
+      "trusted": true,
+      "domains": [
+        "ai-safety"
+      ],
+      "agents": [
+        "1F916:1vdAZ_oN_TJ_6gMYECBUrCMP64IQvEjhM9s4IsmrpJc"
+      ]
+    },
+    {
+      "operator": "seed-c.nomankind.ai",
+      "kind": "domain",
+      "maintainer": false,
+      "provider": false,
+      "trusted": true,
+      "domains": [
+        "ai-safety"
+      ],
+      "agents": [
+        "1F916:lc2mH8sddgrMLon5xhRkQHomBFGGO1Au9PUH_gkYkGk"
+      ]
     }
   ],
   "agents": {
+    "1F916:c_RLpw4C-LrCU7kYfn2E-OKVEUVmvi2_CoiXhcnB6E4": "colony:nomankind",
     "1F916:wUJssmhIQodRnXYf-RzjJlk_Rns2-iiGCLV_yuX_91A": "dryrun-1.nomankind.ai",
     "1F916:ZJTlpf93Xr9RNGeixeFbkMbnxz8Mbdb4PGPO9AiCtBc": "fixture-a.nomankind.ai",
     "1F916:GwNvWtrOr42ZNLbje4GEyJDeVfCi07zOI8B4H9yxRK8": "fixture-b.nomankind.ai",
     "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY": "fixture-c.nomankind.ai",
     "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc": "fixture-d.nomankind.ai",
-    "1F916:1TKKI7sj8zxdhwYzyUaGIvbD5rP7WKG51Ld1YQqE_QM": "fixture-e.nomankind.ai"
+    "1F916:1TKKI7sj8zxdhwYzyUaGIvbD5rP7WKG51Ld1YQqE_QM": "fixture-e.nomankind.ai",
+    "1F916:cwQjToRYDuq2R0s1iKV8KxlPdxFw6vU-o7O-yPXqXJg": "seed-a.nomankind.ai",
+    "1F916:1vdAZ_oN_TJ_6gMYECBUrCMP64IQvEjhM9s4IsmrpJc": "seed-b.nomankind.ai",
+    "1F916:lc2mH8sddgrMLon5xhRkQHomBFGGO1Au9PUH_gkYkGk": "seed-c.nomankind.ai"
   }
 }

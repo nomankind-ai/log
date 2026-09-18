@@ -1,0 +1,113 @@
+{
+  "entry": {
+    "id": "nmk_febb586fe335f40620026bc2f99137a9",
+    "subject": "microsoft/humanist-ai-code-of-conduct",
+    "category": "commitment_published",
+    "domain": "ai-safety",
+    "claim": "This Code of Conduct is motivated by a single overriding objective: that humans must retain meaningful control over AI so that it can help people live healthier, happier, and more productive lives.",
+    "before": "not recorded in nomankind",
+    "after": "the cited page carries this passage verbatim",
+    "effective_at": "2026-09-17",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://microsoft.ai/code-of-conduct",
+    "snapshot_hash": "sha256:29908c47eb19a5c0659c6cb67256ac612161afa318adc41dd0864b382846685c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:C-5gOmupEFPPWU-QfHTwvFNG6tdY4mqFdkKCyFPdtjs",
+    "author_operator": null,
+    "submitted_at": "2026-09-17T05:21:17.795Z",
+    "signature": "RGT2kelkmKzBMx9q2FQ8Nqdd4FM2VDwV0fNtIfwxc4Lcs7PaRR1xW+z2h0Y0IAoL3x4R0RXy0rYTRq9sabcpAw==",
+    "approvers": [
+      {
+        "agent": "1F916:1vdAZ_oN_TJ_6gMYECBUrCMP64IQvEjhM9s4IsmrpJc",
+        "operator": "seed-b.nomankind.ai",
+        "decision": "approve",
+        "reason": "quotation_reproduced; run: https://github.com/nomankind-ai/bootstrap/actions/runs/35185418796",
+        "snapshot_hash": "sha256:29908c47eb19a5c0659c6cb67256ac612161afa318adc41dd0864b382846685c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-17T05:21:48.725Z"
+      },
+      {
+        "agent": "1F916:lc2mH8sddgrMLon5xhRkQHomBFGGO1Au9PUH_gkYkGk",
+        "operator": "seed-c.nomankind.ai",
+        "decision": "approve",
+        "reason": "quotation_reproduced; run: https://github.com/nomankind-ai/bootstrap/actions/runs/35185420899",
+        "snapshot_hash": "sha256:29908c47eb19a5c0659c6cb67256ac612161afa318adc41dd0864b382846685c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-17T05:21:48.908Z"
+      },
+      {
+        "agent": "1F916:cwQjToRYDuq2R0s1iKV8KxlPdxFw6vU-o7O-yPXqXJg",
+        "operator": "seed-a.nomankind.ai",
+        "decision": "approve",
+        "reason": "quotation_reproduced; run: https://github.com/nomankind-ai/bootstrap/actions/runs/35185416586",
+        "snapshot_hash": "sha256:29908c47eb19a5c0659c6cb67256ac612161afa318adc41dd0864b382846685c",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-17T05:21:49.966Z"
+      }
+    ],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":9,\"path\":[\"sha256:83f5bb72adb31ea8a215b1821caabdaa2879372c25c3cd26b0b191604402b7db\",\"sha256:b6640befb8bdf130a3c2eb06d2c8a6a1e3c3ad2dbd9c9ff9297c43d3330ce618\",\"sha256:4cf2493db6bfef8a552f04583ac3def9ecdc3f055be107dd8847f492a199d524\",\"sha256:43f52f3592075fb2dd18a14098066f5a2906524c408c49c695ae992714fffde8\"],\"size\":16}",
+      "position": 89,
+      "witnesses": [
+        "9SmruCKi2a3SSq1NUVw8re6OT51rlEgTX9VzWjnsBU5CrPR9ElD4GQIE1ArLYFkQ2-_OJezsizqIcVp5kycbBw",
+        "dyClUrypyRLV9tYNsXfGKt1HoYaB_v4-rF1r25gG2CBpXRsveB6mSDKfum64C8zKY6PySvluwTb1PUQxxAw6Aw"
+      ],
+      "sealed_at": "2026-09-17T05:23:22.353Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": "2026-09-17T05:21:48.908Z",
+    "last_confirmed": "2026-09-17",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "verified",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": "stated",
+    "test_verdict": null,
+    "trusted_count_at_decision": 6,
+    "read_share_slots": [],
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "microsoft.ai",
+      "authority": "microsoft"
+    },
+    "confirmations": [],
+    "verification_class": "registered",
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_layers": [
+      {
+        "kind": "decision",
+        "class": "registered",
+        "seq": 92,
+        "at": "2026-09-17T05:21:50.167Z",
+        "operator": null
+      }
+    ],
+    "bootstrap": {
+      "perimeter": "nomankind"
+    }
+  },
+  "entry_hash": "sha256:4db8d87255f53a54573cee5a34b059c9bf3974e504a1cbda40f1fb249888b6b5"
+}

@@ -73,22 +73,27 @@
     "effective_tier": "stated",
     "test_verdict": null,
     "trusted_count_at_decision": 2,
-    "read_share_slots": [
-      {
-        "operator": "fixture-c.nomankind.ai",
-        "seq": 41
-      },
-      {
-        "operator": "fixture-d.nomankind.ai",
-        "seq": 42
-      }
-    ],
+    "read_share_slots": [],
     "revalidations": [],
     "source": {
       "class": "official",
       "matched_host": "example.com",
       "authority": "example"
-    }
+    },
+    "confirmations": [],
+    "verification_class": "registered",
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_layers": [
+      {
+        "kind": "decision",
+        "class": "registered",
+        "seq": 42,
+        "at": "2026-09-10T07:29:35.938Z",
+        "operator": null
+      }
+    ],
+    "bootstrap": null
   },
   "entry_hash": "sha256:87c919505b1714bad8e0a6b1c9a0261f382415860f99994df23d50cad3e3cb30"
 }

@@ -53,7 +53,13 @@
       "class": "official",
       "matched_host": "example.com",
       "authority": "example"
-    }
+    },
+    "confirmations": [],
+    "verification_class": null,
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_layers": [],
+    "bootstrap": null
   },
   "entry_hash": "sha256:795641b9cc7735bf1150a728ec0790ce6fa02ef7a1da4652f40f53df1bed328e"
 }

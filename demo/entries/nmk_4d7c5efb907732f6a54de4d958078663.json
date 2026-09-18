@@ -91,22 +91,42 @@
     "effective_tier": "observed",
     "test_verdict": "accepted",
     "trusted_count_at_decision": 3,
-    "read_share_slots": [
-      {
-        "operator": "fixture-c.nomankind.ai",
-        "seq": 47
-      },
-      {
-        "operator": "fixture-d.nomankind.ai",
-        "seq": 48
-      }
-    ],
+    "read_share_slots": [],
     "revalidations": [],
     "source": {
       "class": "official",
       "matched_host": "example.com",
       "authority": "example"
-    }
+    },
+    "confirmations": [
+      {
+        "venue": "1f916",
+        "handle": "nomankind",
+        "verdict": "approve",
+        "check": {
+          "kind": "hash",
+          "value": "sha256:13f5e50297bde87abbf51cd1cd43678109b1a72a52c1cefa3b56844464e4f25c"
+        },
+        "reason": "demo test of the public-confirmation door (D-136); the record's own snapshot hash",
+        "posted_at": "2026-09-17T05:20:21.572Z",
+        "registry_event_id": 16315,
+        "counted": true,
+        "seq": 95
+      }
+    ],
+    "verification_class": "registered",
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_layers": [
+      {
+        "kind": "decision",
+        "class": "registered",
+        "seq": 48,
+        "at": "2026-09-10T12:51:44.801Z",
+        "operator": null
+      }
+    ],
+    "bootstrap": null
   },
   "entry_hash": "sha256:6be4b5a5557d61dd34ecda417c6d59637785ea8afe5624c4aa26b76722c3ab55"
 }

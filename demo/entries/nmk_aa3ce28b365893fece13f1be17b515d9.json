@@ -72,16 +72,7 @@
     "effective_tier": "stated",
     "test_verdict": null,
     "trusted_count_at_decision": 4,
-    "read_share_slots": [
-      {
-        "operator": "fixture-c.nomankind.ai",
-        "seq": 25
-      },
-      {
-        "operator": "fixture-d.nomankind.ai",
-        "seq": 26
-      }
-    ],
+    "read_share_slots": [],
     "revalidations": [
       {
         "request_seq": 28,
@@ -100,7 +91,21 @@
       "class": "official",
       "matched_host": "example.com",
       "authority": "example"
-    }
+    },
+    "confirmations": [],
+    "verification_class": "registered",
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_layers": [
+      {
+        "kind": "decision",
+        "class": "registered",
+        "seq": 26,
+        "at": "2026-09-10T00:48:24.369Z",
+        "operator": null
+      }
+    ],
+    "bootstrap": null
   },
   "entry_hash": "sha256:9c8f3d40641ad6cc37315bb0a943edfa2a007fadfb6702e349e12be144855921"
 }

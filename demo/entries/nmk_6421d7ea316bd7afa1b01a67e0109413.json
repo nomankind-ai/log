@@ -54,7 +54,13 @@
       "class": "official",
       "matched_host": "claude.com",
       "authority": "anthropic"
-    }
+    },
+    "confirmations": [],
+    "verification_class": null,
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_layers": [],
+    "bootstrap": null
   },
   "entry_hash": "sha256:887d5a9b635e96355d0fbfb04fbf1f2d0e4417fec0bffd2e6ef4a260d72f878c"
 }

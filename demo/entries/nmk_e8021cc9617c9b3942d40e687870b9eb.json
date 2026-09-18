@@ -43,6 +43,18 @@
         "reproduction": null,
         "observation": null,
         "signed_at": "2026-09-11T19:18:49.858Z"
+      },
+      {
+        "agent": "1F916:1vdAZ_oN_TJ_6gMYECBUrCMP64IQvEjhM9s4IsmrpJc",
+        "operator": "seed-b.nomankind.ai",
+        "decision": "reject",
+        "reason": "quotation_not_reproduced: span absent; run: https://github.com/nomankind-ai/bootstrap/actions/runs/35185418796",
+        "snapshot_hash": "sha256:305c4cdb2c43ae0fa29e3a8aa7a1b788125c9f07d21b1d54c7f26b61b68c21fd",
+        "assigned_random": false,
+        "test_accepted": null,
+        "reproduction": null,
+        "observation": null,
+        "signed_at": "2026-09-17T05:21:46.004Z"
       }
     ],
     "reconfirmations": [],
@@ -59,7 +71,7 @@
       "sealed_at": "2026-09-11T19:20:16.300Z"
     },
     "staleness_window_days": null,
-    "verified_at": "2026-09-11T19:18:49.858Z",
+    "verified_at": "2026-09-17T05:21:46.004Z",
     "last_confirmed": "2026-09-11",
     "expires_at": null,
     "stale": false,
@@ -72,23 +84,28 @@
     "needs_replacement": false,
     "effective_tier": "stated",
     "test_verdict": null,
-    "trusted_count_at_decision": 3,
-    "read_share_slots": [
-      {
-        "operator": "fixture-c.nomankind.ai",
-        "seq": 68
-      },
-      {
-        "operator": "fixture-d.nomankind.ai",
-        "seq": 69
-      }
-    ],
+    "trusted_count_at_decision": 6,
+    "read_share_slots": [],
     "revalidations": [],
     "source": {
       "class": "official",
       "matched_host": "anthropic.com",
       "authority": "anthropic"
-    }
+    },
+    "confirmations": [],
+    "verification_class": "registered",
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_layers": [
+      {
+        "kind": "decision",
+        "class": "registered",
+        "seq": 90,
+        "at": "2026-09-17T05:21:47.283Z",
+        "operator": null
+      }
+    ],
+    "bootstrap": null
   },
   "entry_hash": "sha256:2427c2303809b218ebaf37c1f323a27241068fa2d0b0b8f4d4a1565508207618"
 }
