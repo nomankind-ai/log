@@ -1,4 +1,30 @@
 {
-  "operators": [],
-  "agents": {}
+  "operators": [
+    {
+      "operator": "github:rakeshm90",
+      "kind": "community",
+      "maintainer": false,
+      "provider": false,
+      "trusted": false,
+      "domains": [
+        "ai-safety"
+      ],
+      "agents": [
+        "github:rakeshm90"
+      ],
+      "binding": {
+        "kind": "account",
+        "venue": "github",
+        "handle": "rakeshm90",
+        "comment_url": "https://api.github.com/repos/nomankind-ai/bootstrap/issues/comments/5734606875",
+        "comment_capture_hash": "sha256:1b90af9a55603fd4c5f79ad6c9e0572ad9c89a74aee35d07738e8a1299dd26a0",
+        "profile_url": "https://api.github.com/users/rakeshm90",
+        "profile_capture_hash": "sha256:046a1e282017fcd4ef5f96d93e612cec5bf67e5445baa5c6eec420e4458f8072",
+        "account_created_at": "2024-01-17T15:17:35.000Z"
+      }
+    }
+  ],
+  "agents": {
+    "github:rakeshm90": "github:rakeshm90"
+  }
 }

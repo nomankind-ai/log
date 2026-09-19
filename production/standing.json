@@ -1,5 +1,5 @@
 {
-  "position": 4,
+  "position": 37,
   "formula": [
     "STANDING_VALIDATION_VOLUNTEERED",
     "STANDING_VALIDATION_ASSIGNED",
@@ -14,5 +14,27 @@
     "REVALIDATION_REQUEST_STAKE_STANDING",
     "STANDING_DECAY_PAUSED"
   ],
-  "operators": []
+  "operators": [
+    {
+      "operator": "github:rakeshm90",
+      "earned": 0,
+      "burned": 0,
+      "locked": 0,
+      "standing": 0,
+      "available": 0,
+      "counts": {
+        "validations_volunteered": 0,
+        "validations_assigned": 0,
+        "validations_reproduced": 0,
+        "attestations_scored": 0,
+        "submissions_verified": 0,
+        "disputes_upheld": 0,
+        "revalidations_changed": 0,
+        "overturned": 0,
+        "missed": 0,
+        "forfeits": 0
+      },
+      "position": 37
+    }
+  ]
 }

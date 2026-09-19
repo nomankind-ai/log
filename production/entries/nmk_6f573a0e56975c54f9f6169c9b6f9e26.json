@@ -1,0 +1,82 @@
+{
+  "entry": {
+    "id": "nmk_6f573a0e56975c54f9f6169c9b6f9e26",
+    "subject": "microsoft/humanist-ai-code-of-conduct",
+    "category": "commitment_published",
+    "domain": "ai-safety",
+    "claim": "We are committed to making this process open, participatory, and shaped by meaningful dialogue.",
+    "before": "not recorded in nomankind",
+    "after": "We are committed to making this process open, participatory, and shaped by meaningful dialogue.",
+    "effective_at": "2026-09-14",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://microsoft.ai/code-of-conduct",
+    "snapshot_hash": "sha256:29908c47eb19a5c0659c6cb67256ac612161afa318adc41dd0864b382846685c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:OeT4svKcDKaeDJwwXSkhPz9M0VO9j-Ykdyg5AeHC4B0",
+    "author_operator": null,
+    "submitted_at": "2026-09-18T18:39:04.257Z",
+    "signature": "RtsC80dvNBFZ67BxasFFHl4Q/gSLTSmRPUT2DGBsQDlrwkayjTbIDSdoTRt8KOy6aRgmtPl9nZ7Btl7Bsip8Ag==",
+    "approvers": [],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":8,\"path\":[\"sha256:44afaf5f0bd5d1d503da4f9fa4377a0ef9dbec247e2a7a9cd7987f54f6702f64\"],\"size\":9}",
+      "position": 13,
+      "witnesses": [
+        "cMKRKdGDy-89bYxWCZ55y_C4z0CltovmiJj3E1Hu7L5Lq_PJH1Lcg8WPZTFHsxz_PdlbzXGLm-hVLiClEHMWBA"
+      ],
+      "sealed_at": "2026-09-18T18:39:16.944Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": null,
+    "last_confirmed": "2026-09-18",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "draft",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": null,
+    "test_verdict": null,
+    "trusted_count_at_decision": null,
+    "read_share_slots": null,
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "microsoft.ai",
+      "authority": "microsoft"
+    },
+    "confirmations": [
+      {
+        "venue": "github",
+        "handle": "rakeshm90",
+        "verdict": "reject",
+        "check": {
+          "kind": "span",
+          "value": "absent"
+        },
+        "reason": null,
+        "posted_at": "2026-09-18T18:42:50.000Z",
+        "registry_event_id": -1,
+        "counted": false,
+        "attestation_version": "nomankind-independence-v1",
+        "seq": 19
+      }
+    ],
+    "verification_class": null,
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_binding": null,
+    "verification_layers": [],
+    "bootstrap": null
+  },
+  "entry_hash": "sha256:3c43d28ca13a1f8d01ff4a4d6bcd5e6e4da5db6f40cb42769337c2cfba333dc7"
+}

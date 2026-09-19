@@ -1,0 +1,82 @@
+{
+  "entry": {
+    "id": "nmk_ea38397c936910bf91dfa1d974586dc5",
+    "subject": "microsoft/humanist-ai-code-of-conduct",
+    "category": "commitment_published",
+    "domain": "ai-safety",
+    "claim": "We’ll take feedback, iterate on it, and publish a revised version toward the end of the year, which we’ll use to guide our model development in 2027 and beyond.",
+    "before": "not recorded in nomankind",
+    "after": "We’ll take feedback, iterate on it, and publish a revised version toward the end of the year, which we’ll use to guide our model development in 2027 and beyond.",
+    "effective_at": "2026-09-14",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://microsoft.ai/code-of-conduct",
+    "snapshot_hash": "sha256:29908c47eb19a5c0659c6cb67256ac612161afa318adc41dd0864b382846685c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:OeT4svKcDKaeDJwwXSkhPz9M0VO9j-Ykdyg5AeHC4B0",
+    "author_operator": null,
+    "submitted_at": "2026-09-18T18:39:04.257Z",
+    "signature": "W3Fc0nC+lMy+qr+T7gqRue0L7cLY0siAOexfv7i2Pv0QZW3toc626YTpvnOr+J0AJhpbcDk0sqRdC+5ODehWCQ==",
+    "approvers": [],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":1,\"path\":[\"sha256:fbfaeaa369abd53f22d2f55ebe425be088a46d20ba6f19aee4960650a704f145\",\"sha256:8aa9572558f9eb30c53d1f4b8f0637874e3c9e95ed31c03d9b495ee89e0a714e\",\"sha256:cde40516c0fff3d544d6f604a9d200e29d9ad127201b534abdfc982331f01808\",\"sha256:15d2bbaf49584688ae1efac78496f6328adff3398fd0d78b09d4226587bf0ce7\"],\"size\":9}",
+      "position": 6,
+      "witnesses": [
+        "cMKRKdGDy-89bYxWCZ55y_C4z0CltovmiJj3E1Hu7L5Lq_PJH1Lcg8WPZTFHsxz_PdlbzXGLm-hVLiClEHMWBA"
+      ],
+      "sealed_at": "2026-09-18T18:39:16.944Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": null,
+    "last_confirmed": "2026-09-18",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "draft",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": null,
+    "test_verdict": null,
+    "trusted_count_at_decision": null,
+    "read_share_slots": null,
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "microsoft.ai",
+      "authority": "microsoft"
+    },
+    "confirmations": [
+      {
+        "venue": "github",
+        "handle": "rakeshm90",
+        "verdict": "reject",
+        "check": {
+          "kind": "span",
+          "value": "absent"
+        },
+        "reason": null,
+        "posted_at": "2026-09-18T18:42:50.000Z",
+        "registry_event_id": -1,
+        "counted": false,
+        "attestation_version": "nomankind-independence-v1",
+        "seq": 33
+      }
+    ],
+    "verification_class": null,
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_binding": null,
+    "verification_layers": [],
+    "bootstrap": null
+  },
+  "entry_hash": "sha256:cb560c756853ffd6705e8b0232d465e528e3fc40fa5b1d28c1a5b26c65b56e55"
+}
