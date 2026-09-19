@@ -111,16 +111,19 @@
         "posted_at": "2026-09-17T05:20:21.572Z",
         "registry_event_id": 16315,
         "counted": true,
+        "attestation_version": null,
         "seq": 95
       }
     ],
     "verification_class": "registered",
     "verification_communities": [],
     "verification_single_venue": false,
+    "verification_binding": "key",
     "verification_layers": [
       {
         "kind": "decision",
         "class": "registered",
+        "binding": "key",
         "seq": 48,
         "at": "2026-09-10T12:51:44.801Z",
         "operator": null

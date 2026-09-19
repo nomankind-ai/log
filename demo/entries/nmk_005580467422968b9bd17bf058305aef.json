@@ -105,10 +105,12 @@
     "verification_class": "registered",
     "verification_communities": [],
     "verification_single_venue": false,
+    "verification_binding": "key",
     "verification_layers": [
       {
         "kind": "decision",
         "class": "registered",
+        "binding": "key",
         "seq": 16,
         "at": "2026-09-09T01:58:24.718Z",
         "operator": null

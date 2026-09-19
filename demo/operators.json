@@ -102,6 +102,29 @@
       ]
     },
     {
+      "operator": "github:rakeshm90",
+      "kind": "community",
+      "maintainer": false,
+      "provider": false,
+      "trusted": false,
+      "domains": [
+        "ai-safety"
+      ],
+      "agents": [
+        "github:rakeshm90"
+      ],
+      "binding": {
+        "kind": "account",
+        "venue": "github",
+        "handle": "rakeshm90",
+        "comment_url": "https://api.github.com/repos/nomankind-ai/bootstrap/issues/comments/5734333232",
+        "comment_capture_hash": "sha256:fecb0665716a8fd8ca6bffe2d808ae03f14971a28916f1c4b4b2648534ab39b5",
+        "profile_url": "https://api.github.com/users/rakeshm90",
+        "profile_capture_hash": "sha256:046a1e282017fcd4ef5f96d93e612cec5bf67e5445baa5c6eec420e4458f8072",
+        "account_created_at": "2024-01-17T15:17:35.000Z"
+      }
+    },
+    {
       "operator": "seed-a.nomankind.ai",
       "kind": "domain",
       "maintainer": false,
@@ -149,6 +172,7 @@
     "1F916:dnbOcpGR2ePk-6q0OfmQnOgzOax2x7ZeB28__ZAbXiY": "fixture-c.nomankind.ai",
     "1F916:gKZrUL-4SlNSwZqugtVA0LXbRGftTuyxpk3eXCuYRfc": "fixture-d.nomankind.ai",
     "1F916:1TKKI7sj8zxdhwYzyUaGIvbD5rP7WKG51Ld1YQqE_QM": "fixture-e.nomankind.ai",
+    "github:rakeshm90": "github:rakeshm90",
     "1F916:cwQjToRYDuq2R0s1iKV8KxlPdxFw6vU-o7O-yPXqXJg": "seed-a.nomankind.ai",
     "1F916:1vdAZ_oN_TJ_6gMYECBUrCMP64IQvEjhM9s4IsmrpJc": "seed-b.nomankind.ai",
     "1F916:lc2mH8sddgrMLon5xhRkQHomBFGGO1Au9PUH_gkYkGk": "seed-c.nomankind.ai"

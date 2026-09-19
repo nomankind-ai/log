@@ -1,0 +1,67 @@
+{
+  "entry": {
+    "id": "nmk_21e8c7d76d3ca9f6b781d5b7740a81b4",
+    "subject": "microsoft/humanist-ai-code-of-conduct",
+    "category": "commitment_published",
+    "domain": "ai-safety",
+    "claim": "This document, and our approach more generally, is still under development so we are not using it to train our models today.",
+    "before": "not recorded in nomankind",
+    "after": "the cited page carries this passage verbatim",
+    "effective_at": "2026-09-14",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://microsoft.ai/code-of-conduct",
+    "snapshot_hash": "sha256:29908c47eb19a5c0659c6cb67256ac612161afa318adc41dd0864b382846685c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:OeT4svKcDKaeDJwwXSkhPz9M0VO9j-Ykdyg5AeHC4B0",
+    "author_operator": null,
+    "submitted_at": "2026-09-18T18:03:07.555Z",
+    "signature": "NianGen72tixmInXfTs4SbqTSxdXJW2kZckZWTiLItxTs8kTujngXLO4P63vw/7wVrBZ4FuJ8VcDP0g2gRXCDw==",
+    "approvers": [],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":0,\"path\":[],\"size\":1}",
+      "position": 99,
+      "witnesses": [
+        "vMRS7wPdDuKvjw0yZ6MqBsA8f2ChyBN7CE5slw7zL9xA52PKG7vFpK23Xu84suSu9PGQHFVmJwzKDzRX9foxCw",
+        "a3jWQJ2gomFOdWe9OL8gJYeorsbfmF6f5bxS3UXyoEZ-dC2dWMV6LyNdxK2fSEGwmvurZISGbEVHhkKEszeKBg"
+      ],
+      "sealed_at": "2026-09-18T18:06:42.263Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": null,
+    "last_confirmed": "2026-09-18",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "draft",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": null,
+    "test_verdict": null,
+    "trusted_count_at_decision": null,
+    "read_share_slots": null,
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "microsoft.ai",
+      "authority": "microsoft"
+    },
+    "confirmations": [],
+    "verification_class": null,
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_binding": null,
+    "verification_layers": [],
+    "bootstrap": null
+  },
+  "entry_hash": "sha256:fdc341d0e0278979ec30cc566d5c6eae30852158181cdbd4be6662b011294dcc"
+}

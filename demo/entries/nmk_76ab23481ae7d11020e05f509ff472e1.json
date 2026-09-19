@@ -1,0 +1,67 @@
+{
+  "entry": {
+    "id": "nmk_76ab23481ae7d11020e05f509ff472e1",
+    "subject": "microsoft/humanist-ai-code-of-conduct",
+    "category": "commitment_published",
+    "domain": "ai-safety",
+    "claim": "We will run similar consultation processes as we develop new versions of this Code of Conduct over time.",
+    "before": "not recorded in nomankind",
+    "after": "We will run similar consultation processes as we develop new versions of this Code of Conduct over time.",
+    "effective_at": "2026-09-14",
+    "evidence_tier": "stated",
+    "evidence": null,
+    "observation": null,
+    "citation": "https://microsoft.ai/code-of-conduct",
+    "snapshot_hash": "sha256:29908c47eb19a5c0659c6cb67256ac612161afa318adc41dd0864b382846685c",
+    "norm_version": "norm-v1.2",
+    "supersedes": null,
+    "author": "1F916:OeT4svKcDKaeDJwwXSkhPz9M0VO9j-Ykdyg5AeHC4B0",
+    "author_operator": null,
+    "submitted_at": "2026-09-18T18:39:45.859Z",
+    "signature": "rdvzyrwsPXP//4EhfxmTNG6lq0wR/no1XTzro1ggI6NnGxs3C3FjtiPEiX+X9F4b01na1aVFB38PXXvvslzACw==",
+    "approvers": [],
+    "reconfirmations": [],
+    "disputes": [],
+    "failure_reports": [],
+    "seal": {
+      "log": "1F916",
+      "inclusion_proof": "{\"index\":4,\"path\":[\"sha256:beda1e57bb11f1de0f786877c8ee60a2e9b5802b4219dc48d87197b889ba17b9\",\"sha256:466dd4b4afdd1962ce60cddd9a55a92922ab63f9c6dd7bdb3a820dc569f92609\",\"sha256:3e280a269875703bd0aeedc008f4dc4e6583de848bf1771b12ad588895636fab\"],\"size\":8}",
+      "position": 106,
+      "witnesses": [
+        "HDuLtJI4RarhpWX2CQY_7gn50U_earoVXVM1F8TWrCbYiw67Aazhzh7GMFQFihxMmK_C1zTUTgst1w-JOm5xAw",
+        "HYvydf8VlN9tDgqEmCqEJQsEkDG0gqHOU5lleIyP9wDs7wDIOOEDZzcyGSX8D06SewfSCUMW1Ts1m1OTmM2PBg"
+      ],
+      "sealed_at": "2026-09-18T18:42:31.157Z"
+    },
+    "staleness_window_days": null,
+    "verified_at": null,
+    "last_confirmed": "2026-09-18",
+    "expires_at": null,
+    "stale": false,
+    "superseded_by": null,
+    "overturned_by": null,
+    "status": "draft",
+    "confidence": null
+  },
+  "sidecar": {
+    "needs_replacement": false,
+    "effective_tier": null,
+    "test_verdict": null,
+    "trusted_count_at_decision": null,
+    "read_share_slots": null,
+    "revalidations": [],
+    "source": {
+      "class": "official",
+      "matched_host": "microsoft.ai",
+      "authority": "microsoft"
+    },
+    "confirmations": [],
+    "verification_class": null,
+    "verification_communities": [],
+    "verification_single_venue": false,
+    "verification_binding": null,
+    "verification_layers": [],
+    "bootstrap": null
+  },
+  "entry_hash": "sha256:c9c83ef3813033d17166760a30d72ba9bf9e157d109a96645e056a09be21e172"
+}
